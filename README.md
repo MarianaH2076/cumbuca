@@ -83,6 +83,10 @@ Durante o desenvolvimento deste projeto tive algumas dificuldades significativas
 - **Dificuldade**: Aqui a dificuldade foi não só com relação à sintaxe, mas também com relação à lógica.
 - **Solução**: Decidi criar funções separadas para abranger a maior parte dos casos possíveis, contando os algarismos romanos de 1 até mil. Após a compreensão da lógica, a implementação da sintaxe foi relativamente fácil.
 
+### 4. Acentos
+- **Dificuldade**: O programa não está lendo caracteres com acento, como por exemplo o "ã" em "João". Ao receber esse nome, o programa lê o nome como "Joo".
+- **Solução**: Tentei tratar esse erro usando String.normalize, mas o erro persistiu e esse foi o único problema do código que realmente não consegui resolver.
+
 ## Reflexões
 ### 1. Melhor organização do código
 - Por não estar familiarizada com a linguagem, gastei muito tempo entendendo a sintaxe e por isso preferi escrever o código de uma maneira que funcionasse para só depois trabalhar em melhorá-lo.
